@@ -28,10 +28,10 @@ export default function ContextProvider(props) {
         newResponse += "<b>" + responseArray[i] + "</b>";
       }
     }
-    let newResponse2 = newResponse.split("*").join("</br>");
-    setResultData(newResponse);
-    setLoading(false);
-    setInput("");
+    let newResponse2 = newResponse.split("*").join("</br>")
+    setResultData(newResponse)
+    setLoading(false)
+    setInput("")
   };
 
   const contextValue = {
